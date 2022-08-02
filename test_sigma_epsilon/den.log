@@ -1,0 +1,38 @@
+                      :-) GROMACS - gmx energy, 2022.1 (-:
+
+Executable:   /home/lau/soft_install/gmx-2021.1/bin/gmx
+Data prefix:  /home/lau/soft_install/gmx-2021.1
+Working dir:  /home/lau/ljc2/Python/PSO/MD_run/particle_1
+Command line:
+  gmx energy -f md.edr -o den.xvg -b 1500
+
+Opened md.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  LJ-(SR)          2  Disper.-corr.    3  Coulomb-(SR)     4  Coul.-recip.  
+  5  Potential        6  Kinetic-En.      7  Total-Energy     8  Conserved-En. 
+  9  Temperature     10  Pres.-DC        11  Pressure        12  Box-X         
+ 13  Box-Y           14  Box-Z           15  Volume          16  Density       
+ 17  pV              18  Enthalpy        19  Vir-XX          20  Vir-XY        
+ 21  Vir-XZ          22  Vir-YX          23  Vir-YY          24  Vir-YZ        
+ 25  Vir-ZX          26  Vir-ZY          27  Vir-ZZ          28  Pres-XX       
+ 29  Pres-XY         30  Pres-XZ         31  Pres-YX         32  Pres-YY       
+ 33  Pres-YZ         34  Pres-ZX         35  Pres-ZY         36  Pres-ZZ       
+ 37  #Surf*SurfTen   38  T-System        39  Lamb-System   
+
+
+Back Off! I just backed up den.xvg to ./#den.xvg.1#
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    5.000         Reading energy frame      2 time   10.000         Reading energy frame      3 time   15.000         Reading energy frame      4 time   20.000         Reading energy frame      5 time   25.000         Reading energy frame      6 time   30.000         Reading energy frame      7 time   35.000         Reading energy frame      8 time   40.000         Reading energy frame      9 time   45.000         Reading energy frame     10 time   50.000         Reading energy frame     11 time   55.000         Reading energy frame     12 time   60.000         Reading energy frame     13 time   65.000         Reading energy frame     14 time   70.000         Reading energy frame     15 time   75.000         Reading energy frame     16 time   80.000         Reading energy frame     17 time   85.000         Reading energy frame     18 time   90.000         Reading energy frame     19 time   95.000         Reading energy frame     20 time  100.000         Reading energy frame     30 time  150.000         Reading energy frame     40 time  200.000         Reading energy frame     50 time  250.000         Reading energy frame     60 time  300.000         Reading energy frame     70 time  350.000         Reading energy frame     80 time  400.000         Reading energy frame     90 time  450.000         Reading energy frame    100 time  500.000         Reading energy frame    110 time  550.000         Reading energy frame    120 time  600.000         Reading energy frame    130 time  650.000         Reading energy frame    140 time  700.000         Reading energy frame    150 time  750.000         Reading energy frame    160 time  800.000         Reading energy frame    170 time  850.000         Reading energy frame    180 time  900.000         Reading energy frame    190 time  950.000         Reading energy frame    200 time 1000.000         Reading energy frame    300 time 1500.000         Reading energy frame    400 time 2000.000         Reading energy frame    500 time 2500.000         Last energy frame read 500 time 2500.000         
+
+GROMACS reminds you: "Science is organized knowledge. Wisdom is organized life." (Immanuel Kant)
+
+
+Statistics over 200001 steps [ 1500.0000 through 2500.0000 ps ], 1 data sets
+All statistics are over 2001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Density                     1018.12        0.1    1.88224  -0.261701  (kg/m^3)
